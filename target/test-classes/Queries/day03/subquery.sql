@@ -14,10 +14,11 @@ select *  from EMPLOYEES
 where  salary=(select max(salary) from EMPLOYEES);
 
 
+
 -- give me all information  who is getting min salary
 
 -- min salary
-select min(salary) from EMPLOYEES;  --2100
+select min(salary*12) from EMPLOYEES;  --2100
 
 -- if we know min  salary can we find who is getting
 select *  from EMPLOYEES

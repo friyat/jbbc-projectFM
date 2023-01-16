@@ -36,7 +36,8 @@ group by DEPARTMENT_ID
 order by max(salary);
 
 -- order results based on max salary in asc and min salary desc
-select DEPARTMENT_ID,sum(salary),count(*),max(salary),min(salary),round(avg(salary)) from EMPLOYEES
+select DEPARTMENT_ID
+     ,sum(salary),count(*),max(salary),min(salary),round(avg(salary)) from EMPLOYEES
 where DEPARTMENT_ID is not null   -- to remove null department id from result
 group by DEPARTMENT_ID
 order by max(salary) , min(salary) desc;

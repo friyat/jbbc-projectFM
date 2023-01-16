@@ -41,7 +41,7 @@ order by SALARY desc;
 
 -- display all information from employees and order them based firstname asc
 select * from EMPLOYEES
-order by FIRST_NAME desc;
+order by FIRST_NAME asc, last_name desc;
 
 --IQ--> display all information from employees and order them based firstname asc and based on lastname desc
 select * from EMPLOYEES

@@ -96,3 +96,5 @@ select * from testers;
 select names from developers
 intersect
 select names from testers;
+
+select * from EMPLOYEES;

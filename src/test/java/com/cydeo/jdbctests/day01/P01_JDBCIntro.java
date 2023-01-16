@@ -6,8 +6,8 @@ import java.sql.*;
 
 public class P01_JDBCIntro {
 
-//Mac --> CMD + N
-    String dbUrl="jdbc:oracle:thin:@44.211.155.58:1521:XE";
+//Mac --> CMD + N ///http://52.91.18.144/
+    String dbUrl="jdbc:oracle:thin:@52.91.18.144:1521:XE";
     String dbUsername="hr";
     String dbPassword="hr";
 

@@ -96,6 +96,13 @@ where DEPARTMENT_ID is not null;
 select * from EMPLOYEES
 where MANAGER_ID is not null;
 
+select * from COUNTRIES
+where COUNTRY_ID in ('US','IT');
+
+select * from EMPLOYEES
+order by FIRST_NAME,LAST_NAME desc;
+
+
 
 
 

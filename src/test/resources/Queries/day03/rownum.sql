@@ -35,7 +35,7 @@ where ROWNUM<6;
 select distinct salary from  EMPLOYEES order by salary desc;
 
 -- display 5th highest salary
-select min(salary) from (select distinct salary  from EMPLOYEES order by salary desc)
+select max(salary) from (select distinct salary  from EMPLOYEES order by salary desc)
 where rownum<6;
 
 
